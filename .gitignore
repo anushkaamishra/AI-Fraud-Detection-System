@@ -1,0 +1,13 @@
+# Secrets — never commit your API key
+.streamlit/secrets.toml
+
+# Dataset is too large for a normal GitHub push (144MB > 100MB limit)
+creditcard.csv
+
+# Trained model can be large too — optional to exclude
+# fraud_model.pkl
+
+__pycache__/
+*.pyc
+.venv/
+venv/
